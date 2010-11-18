@@ -1,3 +1,6 @@
+require "rubygems"
+require "bundler/setup"
+
 $:.unshift File.expand_path("../lib", __FILE__)
 
 require "heroku_backup_task/tasks"
