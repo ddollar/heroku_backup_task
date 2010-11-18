@@ -13,6 +13,8 @@ Gem::Specification.new do |gem|
 
   gem.summary  = "Automate your Heroku backups"
 
+  gem.files = Dir["**/*"].select { |d| d =~ %r{^(README|bin/|data/|ext/|lib/|spec/|test/)} }
+
   gem.add_dependency "heroku", "1.13.7"
   gem.add_dependency "rake"
 end
