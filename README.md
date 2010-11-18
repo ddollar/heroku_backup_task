@@ -10,9 +10,11 @@ A simple helper to automate your [Heroku](http://heroku.com) app [backups](http:
     gem "heroku_backup_task"
 
     # Rakefile
+    require "heroku_backup_task/tasks"
     task :cron => :heroku_backup
 
     # Rakefile (alternative)
+    require "heroku_backup_task"
     task :cron do
       # other code here
       HerokuBackupTask.execute
