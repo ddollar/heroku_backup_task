@@ -18,6 +18,10 @@ A simple helper to automate your [Heroku](http://heroku.com) app [backups](http:
       HerokuBackupTask.execute
     end
 
+Make sure you install the pgbackups addon
+
+    heroku addons:add pgbackups:basic
+
 ## Configuration
 
 By default, `heroku_backup_task` will back up `DATABASE_URL` and will keep
