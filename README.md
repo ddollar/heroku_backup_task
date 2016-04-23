@@ -1,3 +1,5 @@
-# This project has a new maintainer
+# Deprecated
 
-https://github.com/joemsak/heroku_backup_task
+This project is deprecated and is no longer being maintained.
+
+Please check out my current project [Convox](https://convox.com) for all of your deployment needs!
